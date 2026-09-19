@@ -1,0 +1,159 @@
+body {
+    Margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+     color: #222;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0066cc;
+}
+nav h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a hover {
+    text-decoration: underline;
+}
+header {
+
+    background-color: #0056b3;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+header h1 {
+    font-size:45px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 20px;
+}
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color:white;
+    border-radius: 12px;
+}
+section h2 {
+    color: #003b7a;
+    font-size:30px;
+}
+section p {
+    line-height: 1.7;
+    font-size:17px;
+}
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+} 
+button:hover {
+    background-color: #004999;
+}
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+li{
+    margin: 10px 0;
+    font-size: 17px;
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.skills-card {
+    padding: 25px;
+    background-color: #eaf4ff;
+    border-radius: 12px;
+    text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.skills-card h3 {
+    transform:
+     translateY(-5px);
+}
+.skills-card h3 {
+    color: #003b7a;
+    margin-bottom: 10px;
+}
+.skills-card p {
+    color: #555;
+}
+  @media (max-width: 768px) {
+    nav {
+        padding: 12px;
+    }
+    nav a {
+        margin: 6px; 
+        font-size: 15px;
+    }
+    header h1 {
+        font-size: 35px;
+    }
+    header p {
+        font-size: 18px;
+    }
+    section {
+        margin: 20px 10px;
+        padding: 25px 20px;
+    }
+    section h2 {
+        font-size: 26px;
+    }
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+  .project-card {
+    padding: 25px;
+    background-color: #eaf4ff;
+    border-radius: 12px;
+    box-shadow: 0. 4px 10px rgba(0,0,0,0.1);
+    transition: 0. 3s;
+  }
+  .project-card hover {
+transform: translateY(-5px);
+  }
+  .project-card h3 {
+    color: #003b7a;
+    font-size: 22px;
+  }
+  .project-card p {
+    color: #555;
+    line-height: 1.6;
+
+  }
+
+
