@@ -387,6 +387,101 @@ service-button {
 .service-button:hover {
   background-color: #003b7a;
   transform: translateY(-2px);
+  .services-card {
+  padding: 30px 20px;
+  background-color: #eaf4ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.services-card:hover {
+  transform: translateY(-7px);
+}
+
+.services-card h3 {
+  color: #003b7a;
+  margin-bottom: 10px;
+}
+
+.services-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.services-card strong {
+  display: block;
+  color: #0066cc;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.service-button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+#services {
+  text-align: center;
+  background-color: white;
+}
+
+.services-container {
+  max-width: 1000px;
+  margin: 30px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.services-card {
+  padding: 30px 20px;
+  background-color: #eaf4ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.services-card:hover {
+  transform: translateY(-7px);
+}
+
+.services-card h3 {
+  color: #003b7a;
+  margin-bottom: 10px;
+}
+
+.services-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.services-card strong {
+  display: block;
+  color: #0066cc;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.service-button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.service-button:hover {
+  background-color: #003b7a;
+  transform: translateY(-2px);
+}
 }
 #contact {
   text-align: center;
@@ -416,6 +511,38 @@ service-button {
 .email-button:hover {
   background-color: #003b7a;
   transform: translateY(-3px);
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  #home h1 {
+    font-size: 36px;
+  }
+
+  #home h2 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 768px) {
   nav {
