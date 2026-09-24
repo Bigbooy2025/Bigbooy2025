@@ -576,3 +576,71 @@ service-button {
     font-size: 20px;
   }
 }
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    padding: 12px 10px;
+    gap: 10px;
+  }
+
+  nav h2 {
+    font-size: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  #home {
+    padding: 70px 15px;
+  }
+
+  #home h1 {
+    font-size: 36px;
+  }
+
+  #home h2 {
+    font-size: 20px;
+  }
+
+  .skills-container,
+  .projects-container,
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-card,
+  .projects-card,
+  .services-card {
+    width: 100%;
+  }
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
