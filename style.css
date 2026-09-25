@@ -644,3 +644,32 @@ html, body {
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 768px) {
+  .services-container {
+    display:flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 20 !important
+  }
+  .services-card {
+    width: 100% !important
+  }
+  .project-container {
+    display:flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+
+
+  }
+  .project-card {
+    width: 100% !important;
+  }
+    .skills-container {
+      display: flex !important;
+      flex-direction:column !important;
+      width: 100% !important
+    }
+    .skills-card {
+      width: 100% !important
+    }
+  }
