@@ -334,154 +334,44 @@ transition: 0,3s;
   text-decoration: none;
   border-radius: 6px;
 }
-  #services {
-  text-align: center;
-  background-color: white;
-}
-
+  /* My Services - gyara don waya */
 .services-container {
-  max-width: 1000px;
-  margin: 30px auto 0;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 25px;
-}
-
-.services-card {
-  padding: 30px 20px;
-  background-color: #eaf4ff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.services-card:hover {
-  transform: translateY(-7px);
-}
-
-.services-card h3 {
-  color: #003b7a;
-}
-
-.services-card p {
-  color: #555;
-  line-height: 1.6;
-}
-
-.services-card strong {
-  color: #0066cc;
-  font-size: 18px;
-}
-
-service-button {
-  display: inline-block;
-  margin-top: 18px;
-  padding: 10px 20px;
-  background-color: #0066cc;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-.service-button:hover {
-  background-color: #003b7a;
-  transform: translateY(-2px);
-  .services-card {
-  padding: 30px 20px;
-  background-color: #eaf4ff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.services-card:hover {
-  transform: translateY(-7px);
-}
-
-.services-card h3 {
-  color: #003b7a;
-  margin-bottom: 10px;
-}
-
-.services-card p {
-  color: #555;
-  line-height: 1.6;
-}
-
-.services-card strong {
   display: block;
-  color: #0066cc;
-  font-size: 18px;
-  margin-top: 15px;
+  width: 100%;
 }
 
-.service-button {
-  display: inline-block;
-  margin-top: 18px;
-  padding: 10px 20px;
-  background-color: #0066cc;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-}
-#services {
+.service-card {
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto 25px auto;
   text-align: center;
-  background-color: white;
+  background: white;
+  padding: 25px 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.services-container {
-  max-width: 1000px;
-  margin: 30px auto 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
-
-.services-card {
-  padding: 30px 20px;
-  background-color: #eaf4ff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.services-card:hover {
-  transform: translateY(-7px);
-}
-
-.services-card h3 {
-  color: #003b7a;
+.service-card h3 {
+  color: #0a4a8a;
   margin-bottom: 10px;
-}
-
-.services-card p {
-  color: #555;
-  line-height: 1.6;
-}
-
-.services-card strong {
-  display: block;
-  color: #0066cc;
   font-size: 18px;
-  margin-top: 15px;
 }
 
-.service-button {
+.service-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.service-card a {
   display: inline-block;
-  margin-top: 18px;
-  padding: 10px 20px;
-  background-color: #0066cc;
-  color: white;
-  text-decoration: none;
+  margin-top: 12px;
+  background: #0a4a8a;
+  color: white !important;
+  padding: 8px 18px;
   border-radius: 6px;
-  transition: 0.3s;
-}
-
-.service-button:hover {
-  background-color: #003b7a;
-  transform: translateY(-2px);
-}
+  text-decoration: none;
+  font-weight: bold;
 }
 #contact {
   text-align: center;
